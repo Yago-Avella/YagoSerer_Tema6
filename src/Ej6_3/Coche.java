@@ -4,23 +4,15 @@ import javax.swing.JOptionPane;
 
 public class Coche {
     private String matricula;
-    private String marca;
-    private String modelo;
-    private String color;
-    private boolean techoSolar;
-    private double kilometros;
-    private int numPuertas;
-    private int numPlazas;
+    private String marca = "SEAT";
+    private String modelo = "ALTEA";
+    private String color = "blanco";
+    private boolean techoSolar = false;
+    private double kilometros = 0;
+    private int numPuertas = 3;
+    private int numPlazas = 5;
 
     public Coche() {
-        matricula = "";
-        marca = "SEAT";
-        modelo = "ALTEA";
-        color = "blanco";
-        techoSolar = false;
-        kilometros = 0;
-        numPuertas = 3;
-        numPlazas = 5;
 
     }
 
